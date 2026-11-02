@@ -1,4 +1,6 @@
-﻿namespace MauiAppHotel
+﻿using MauiAppHotel.Views;
+
+namespace MauiAppHotel
 {
     public partial class MainPage : ContentPage
     {
