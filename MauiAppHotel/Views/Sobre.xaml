@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.Sobre"
-             Title="Sobre o app">
+             Title="Sobre o app"
+             BackgroundColor="WhiteSmoke">
 
 
     <VerticalStackLayout Padding="10">
         <Label 
             Text="Hotel"
             FontSize="26"
+            TextColor="Purple"
             FontFamily="Kalam-Bold"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
@@ -17,6 +19,7 @@
         <Label 
            Text="Sistema desenvolvido para fins educativos e de aprendizagem para Etec, do curso de desenvolvimento de sistemas"
            FontSize="20"
+           TextColor="Black"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
