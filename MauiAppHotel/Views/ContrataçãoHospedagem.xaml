@@ -4,7 +4,7 @@
              x:Class="MauiAppHotel.Views.ContrataçãoHospedagem"
              Title="ContrataçãoHospedagem"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="White">
+             BackgroundColor="WhiteSmoke">
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
@@ -75,13 +75,14 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" Clicked="Button_Clicked" />
+                <Button Text="Avançar" Clicked="Button_Clicked"
+                        HorizontalOptions="Center"/>
 
 
                 <Button Text="Sobre o Aplicativo" 
                   Clicked="OnSobreClicked" 
-                  BackgroundColor="Black" 
-                  TextColor="White" 
+                  BackgroundColor="LightBlue" 
+                  TextColor="Black" 
                   Margin="0,20,0,0"/>
 
             </VerticalStackLayout>

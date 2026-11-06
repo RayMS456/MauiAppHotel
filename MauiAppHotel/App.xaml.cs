@@ -8,7 +8,7 @@ namespace MauiAppHotel
         {
             new Quarto()
             {
-                Descricao = "Suite Super Luxo",
+                Descricao = "Suite Hiper Luxo",
                 ValorDiariaAdulto = 150.0,
                 ValorDiariaCrianca = 75.0
             },

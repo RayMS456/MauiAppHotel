@@ -7,8 +7,8 @@
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
         
-        <Label Text="Suíte super luxo"
-               TextColor="{StaticResource Primary}"
+        <Label Text="Suíte Hiper Luxo"
+               TextColor="{StaticResource PrimaryDarkText}"
                FontFamily="Kalam"
                FontSize="50"
                HorizontalTextAlignment="Center"/>
@@ -17,14 +17,16 @@
             <HorizontalStackLayout>
                 <HorizontalStackLayout>
                     <Label Text="Adultos: " />
-                    <Label Text="2"
-                           TextColor="Purple" />
+                    <Label Text=" 1     "
+                           BackgroundColor="Black"
+                           TextColor="White" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout>
-                    <Label Text="Crianças: " />
-                    <Label Text="1"
-                           TextColor="Purple" />
+                    <Label Text="   Crianças: " />
+                    <Label Text=" 0"
+                           BackgroundColor="Black"
+                           TextColor="White" />
                 </HorizontalStackLayout>
             </HorizontalStackLayout>
         </Frame>
@@ -36,16 +38,16 @@
                 <Label Grid.Row="0" Grid.Column="1" Text="Check-out: " />
                 <Label Grid.Row="0" Grid.Column="2" Text="Estadia: " />
 
-                <Label Grid.Row="1" Grid.Column="0" Text="27/05/2026" />
-                <Label Grid.Row="1" Grid.Column="1" Text="30/05/2026 " />
-                <Label Grid.Row="1" Grid.Column="2" Text="3" />
+                <Label Grid.Row="1" Grid.Column="0" Text="06/11/2026" />
+                <Label Grid.Row="1" Grid.Column="1" Text="13/11/2026 " />
+                <Label Grid.Row="1" Grid.Column="2" Text="7" />
             </Grid>
         </Frame>
 
         <Frame Margin="10">
             <HorizontalStackLayout>
                 <Label Text="Valor total: "/>
-                <Label Text="R$ 780,00" />
+                <Label Text="R$ 1280,00" />
             </HorizontalStackLayout>
         </Frame>
 
