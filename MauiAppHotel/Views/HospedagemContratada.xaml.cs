@@ -4,7 +4,7 @@ public partial class HospedagemContratada : ContentPage
 {
 	public HospedagemContratada()
 	{
-		InitializeComponent();
+        InitializeComponent();
 	}
 
     private void Button_Clicked(object sender, EventArgs e)
